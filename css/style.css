@@ -1,0 +1,86 @@
+#nombre{
+    font-size: 50px;
+}
+.principal{
+    background-color: #fdcae1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.fijo{
+    background-color: #84b6f4;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+.arriba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.abajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cuadradoF{
+    width: 40px;
+    height: 60px;
+    background-color: #ff6961;
+    margin: 5px;
+}
+.flex{
+    background-color: #84b6f4;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+}
+.cuadradoFlex{
+    width: 40px;
+    height: 60px;
+    background-color: #fdfd96;
+    margin: 10px;
+}
+.arriba2{
+    display: flex;
+    flex-direction: row;
+}
+.centro{
+    display: flex;
+    flex-direction: row;
+}
+.abajo2{
+    display: flex;
+    flex-direction: row;
+}
+.est{
+    
+    background-color: #84b6f4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px;
+    flex-grow: 1;
+    width: auto;
+}
+.est1{
+    background-color: #77dd77;
+    height: 60px;
+    flex-grow: 1;
+    margin: 5px;
+}
+.est2{
+    height: 60px;
+    display: flex;
+    background-color: #77dd77;
+    margin: 5px;
+    flex-grow: 2;
+}
